@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11449654}
+  m_Layer: 0
+  m_Name: LoggerTags
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.2060986, y: 12.1000004, z: 14.2231636}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11449654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d8346ab36d14048839fbc58f264d72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tags:
+  - Tag: MsgHandler
+    Enable: 0
+    Color: yellow
+  - Tag: BUFF
+    Enable: 0
+    Color: red
+  - Tag: Resources
+    Enable: 0
+    Color: 
+  - Tag: Map
+    Enable: 0
+    Color: 
+  - Tag: Spawner
+    Enable: 0
+    Color: 
+  - Tag: Move
+    Enable: 0
+    Color: cyan
+  - Tag: ScreenControl
+    Enable: 0
+    Color: yellow
+  - Tag: Sound
+    Enable: 0
+    Color: cyan
+  - Tag: Anim
+    Enable: 0
+    Color: yellow
+  - Tag: Camera
+    Enable: 0
+    Color: red
+  - Tag: Entity
+    Enable: 0
+    Color: 
+  - Tag: Game
+    Enable: 0
+    Color: red
+  - Tag: Data
+    Enable: 0
+    Color: 
+  - Tag: AI
+    Enable: 0
+    Color: cyan
+  - Tag: Trigger
+    Enable: 0
+    Color: 
+  - Tag: Skill
+    Enable: 0
+    Color: cyan
+  - Tag: SKILL
+    Enable: 0
+    Color: 
+  - Tag: Buff
+    Enable: 0
+    Color: red
+  - Tag: Global
+    Enable: 0
+    Color: 
+  - Tag: View
+    Enable: 0
+    Color: 
+  - Tag: StopSkill
+    Enable: 0
+    Color: red
+  - Tag: Damage
+    Enable: 0
+    Color: red
+  - Tag: Memory
+    Enable: 0
+    Color: 
+  - Tag: Goal
+    Enable: 0
+    Color: red
+  - Tag: AIControl
+    Enable: 0
+    Color: red
+  - Tag: SkillManager
+    Enable: 0
+    Color: 
+  - Tag: Memory1
+    Enable: 0
+    Color: 
+  - Tag: SearchPath
+    Enable: 0
+    Color: 
+  - Tag: Command
+    Enable: 0
+    Color: 
+  - Tag: Death
+    Enable: 0
+    Color: 
+  - Tag: WebMessage
+    Enable: 0
+    Color: 
+  - Tag: Spawn
+    Enable: 0
+    Color: 
+  - Tag: HighEffect
+    Enable: 0
+    Color: yellow
+  - Tag: EntityMessage
+    Enable: 0
+    Color: 
+  - Tag: DamageAction
+    Enable: 0
+    Color: 
+  - Tag: Effect
+    Enable: 0
+    Color: 
+  - Tag: Scene
+    Enable: 0
+    Color: 
+  - Tag: rebolomo
+    Enable: 0
+    Color: 
+  - Tag: GetRandomSkill
+    Enable: 0
+    Color: 
+  - Tag: AI_State
+    Enable: 0
+    Color: 
+  - Tag: WebService
+    Enable: 0
+    Color: yellow
+  - Tag: wn-----------------------------------------------------!!!-----------
+    Enable: 0
+    Color: 
+  - Tag: wn
+    Enable: 0
+    Color: white
+  - Tag: UIMsg
+    Enable: 0
+    Color: 
+  - Tag: Test
+    Enable: 0
+    Color: 
+  - Tag: Message
+    Enable: 0
+    Color: 
+  - Tag: AIrebolomo
+    Enable: 0
+    Color: 
+  - Tag: FJ
+    Enable: 0
+    Color: yellow
+  - Tag: UI
+    Enable: 0
+    Color: 
+  - Tag: Time
+    Enable: 0
+    Color: 
+  - Tag: WowTarget
+    Enable: 0
+    Color: 
+  - Tag: BattleMsg
+    Enable: 0
+    Color: 
+  - Tag: Fabao
+    Enable: 0
+    Color: 
+  - Tag: ErrorCode
+    Enable: 0
+    Color: 
+  - Tag: RebolomoSpawner
+    Enable: 0
+    Color: 
+  - Tag: ActionMsg
+    Enable: 0
+    Color: 
+  - Tag: Guide
+    Enable: 0
+    Color: yellow
+  - Tag: ScreenControlrebolomo
+    Enable: 0
+    Color: 
+  - Tag: Destination
+    Enable: 0
+    Color: yellow
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
